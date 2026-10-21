@@ -8,7 +8,7 @@ A responsive static website for Topstar Labels and the ebook *The AI Income Play
 - X: https://x.com/Topstarlabels
 - Instagram: https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=xxr4hlb
 - TikTok: https://www.tiktok.com/@starlabels1?_r=1&_t=ZS-9AfQbg9r2Hc
-- https://www.reddit.com/r/t5_2qh4i/s/VtmttNqaM3
+- Reddit: https://www.reddit.com/r/t5_2qh4i/s/VtmttNqaM3
 
 ## Before launch
 1. Open `assets/site.js` and add the confirmed Amazon product URL and Payhip product URL in `SITE_SETTINGS.books.aiIncomePlaybook`. The same settings activate purchase buttons on the homepage, Books page and dedicated book page.
