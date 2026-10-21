@@ -54,8 +54,9 @@ GitHub's interface can change, so follow its current Pages prompts if labels dif
 In `assets/site.js`, change the two empty strings inside `SITE_SETTINGS.books.aiIncomePlaybook`:
 
 ```js
-amazonUrl: "https://www.amazon.com/dp/YOUR_REAL_BOOK_ASIN",
-payhipUrl: "https://payhip.com/b/YOUR_REAL_PRODUCT_CODE"
+amazonUrl: "https://www.amazon.com/dp/B0HNN6CS9V,
+amazonUrl: "https://www.amazon.com/dp/B0HNRK57H9,
+payhipUrl: "https://payhip.com/u1789080458409119008799
 ```
 
 These are format examples only, not real purchase links. Replace each with the exact URL copied from your actual product listing. If a platform is not ready, leave its value as an empty string. The buttons on the homepage, Books page and book detail page will activate automatically for any valid `http://` or `https://` URL; otherwise they stay visibly disabled. Never guess a product URL.
