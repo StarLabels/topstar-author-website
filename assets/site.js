@@ -2,8 +2,8 @@
 const SITE_SETTINGS = {
   books: {
     aiIncomePlaybook: {
-      amazonUrl: "",
-      payhipUrl: ""
+      amazonUrl: "https://www.amazon.com/dp/B0HNN6CS9V,
+      payhipUrl: "https://payhip.com/u1789080458409119008799
     }
   },
   /* Add future YouTube videos here. Use the ID after youtu.be/ or v= in the video URL. */
