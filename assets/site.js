@@ -1,10 +1,12 @@
 /* Topstar Labels website settings. Update purchase URLs here when confirmed. */
 const SITE_SETTINGS = {
   books: {
-    aiIncomePlaybook: {
-      amazonUrl: https://amazon.com/dp/B0HNN6CS9V,
-      payhipUrl: https://payhip.com/b/u1789080458409119008799
-    }
+    
+aiIncomePlaybook: {
+  amazonUrl: "https://www.amazon.com/dp/B0HNN6CS9V",
+  payhipUrl: "https://payhip.com/b/u1789080458409119008799"
+}
+
   },
   /* Add future YouTube videos here. Use the ID after youtu.be/ or v= in the video URL. */
   videos: [
@@ -37,10 +39,12 @@ if (menuToggle && nav) menuToggle.addEventListener("click", () => {
 });
 
 // Activate purchase buttons automatically when a real product URL is supplied.
+
 const purchaseUrls = {
-  amazon: SITE_SETTINGS.books.aiIncomePlaybook.https://amazon.com/dp/B0HNN6CS9V,
-  payhip: SITE_SETTINGS.books.aiIncomePlaybook.https://payhip.com/b/u1789080458409119008799
+  amazon: SITE_SETTINGS.books.aiIncomePlaybook.amazonUrl,
+  payhip: SITE_SETTINGS.books.aiIncomePlaybook.payhipUrl
 };
+
 document.querySelectorAll("[data-purchase]").forEach(button => {
   const platform = button.dataset.purchase;
   const url = purchaseUrls[platform];
