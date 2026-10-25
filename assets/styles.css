@@ -7,3 +7,15 @@
 /* Responsive YouTube video library */
 .video-feature-section{background:#fbf8f1}.video-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:start}.video-grid-library{grid-template-columns:repeat(2,minmax(0,1fr))}.video-card{overflow:hidden;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 34px rgba(16,27,53,.06)}.video-frame{position:relative;width:100%;aspect-ratio:16/9;background:#101b35;overflow:hidden}.video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.video-card-content{padding:22px}.video-card-content h3{font:24px/1.25 'Playfair Display',Georgia,serif;color:var(--navy);margin:8px 0}.video-card-content>p:not(.article-category){font-size:12px;color:var(--muted);margin:8px 0 15px}.video-placeholder,.video-empty-state{display:flex;align-items:center;gap:18px;padding:25px;border:1px dashed #d5cbb8;background:#f7f2e8;border-radius:10px;grid-column:1/-1}.video-placeholder-icon,.video-empty-icon{flex:0 0 48px;width:48px;height:48px;display:grid;place-items:center;border-radius:50%;background:var(--navy);color:var(--gold);font-size:20px}.video-placeholder strong,.video-empty-state h3{font:21px 'Playfair Display',Georgia,serif;color:var(--navy);margin:0}.video-placeholder p,.video-empty-state p{font-size:12px;color:var(--muted);margin:5px 0}.video-empty-state{flex-direction:column;text-align:center;padding:42px 24px}.video-empty-state .button{margin-top:8px}.video-empty-help{margin-top:30px;padding:22px 24px;background:#f5f1e8;border-radius:10px}.video-empty-help strong{font:20px 'Playfair Display',Georgia,serif;color:var(--navy)}.video-empty-help p{font-size:12px;color:var(--muted)}.video-empty-help code,.section-intro code{font-size:11px;background:#e9e1d3;padding:2px 5px;border-radius:3px}
 @media(max-width:680px){.video-grid,.video-grid-library{grid-template-columns:1fr}.video-card-content{padding:18px}.video-card-content h3{font-size:22px}.video-placeholder{align-items:flex-start;padding:20px}.video-empty-state{padding:30px 18px}}
+
+
+/* Original publisher-supplied cover image */
+.real-book-cover{display:block;width:100%;height:100%;object-fit:contain;border-radius:inherit;}
+.hero-art-real-cover{display:flex;align-items:center;justify-content:center;padding:10px;min-height:0;background:transparent;box-shadow:none;}
+.hero-real-cover{width:auto;max-width:100%;height:auto;max-height:560px;object-fit:contain;filter:drop-shadow(0 20px 24px rgba(0,0,0,.38));border-radius:5px;}
+.featured-mini-cover{overflow:hidden;padding:0!important;background:#050814!important;}
+.mini-real-cover{object-fit:cover;}
+.listing-cover{overflow:hidden;padding:0!important;background:#050814!important;}
+.listing-real-cover{object-fit:cover;}
+.large-cover{overflow:hidden;}
+.detail-real-cover{object-fit:contain;}
