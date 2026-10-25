@@ -8,7 +8,6 @@ A responsive static website for Topstar Labels and the ebook *The AI Income Play
 - X: https://x.com/Topstarlabels
 - Instagram: https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=xxr4hlb
 - TikTok: https://www.tiktok.com/@starlabels1?_r=1&_t=ZS-9AfQbg9r2Hc
-- Reddit: https://www.reddit.com/r/t5_2qh4i/s/VtmttNqaM3
 
 ## Before launch
 1. Open `assets/site.js` and add the confirmed Amazon product URL and Payhip product URL in `SITE_SETTINGS.books.aiIncomePlaybook`. The same settings activate purchase buttons on the homepage, Books page and dedicated book page.
@@ -55,9 +54,11 @@ GitHub's interface can change, so follow its current Pages prompts if labels dif
 In `assets/site.js`, change the two empty strings inside `SITE_SETTINGS.books.aiIncomePlaybook`:
 
 ```js
-amazonUrl: "https://www.amazon.com/dp/B0HNN6CS9V,
-amazonUrl: "https://www.amazon.com/dp/B0HNRK57H9,
-payhipUrl: "https://payhip.com/u1789080458409119008799
+amazonUrl: "https://www.amazon.com/dp/YOUR_REAL_BOOK_ASIN",
+payhipUrl: "https://payhip.com/b/YOUR_REAL_PRODUCT_CODE"
 ```
 
 These are format examples only, not real purchase links. Replace each with the exact URL copied from your actual product listing. If a platform is not ready, leave its value as an empty string. The buttons on the homepage, Books page and book detail page will activate automatically for any valid `http://` or `https://` URL; otherwise they stay visibly disabled. Never guess a product URL.
+
+## Original book cover
+The original supplied cover image is stored at `assets/ai-income-playbook-cover.webp` and is displayed on the homepage hero, homepage featured-book card, Books page, and individual book page. Keep this image in the same relative location when uploading the site to GitHub Pages.
