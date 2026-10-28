@@ -41,8 +41,8 @@ if (menuToggle && nav) menuToggle.addEventListener("click", () => {
 // Activate purchase buttons automatically when a real product URL is supplied.
 
 const purchaseUrls = {
-  amazon: SITE_SETTINGS.books.aiIncomePlaybook.AmazonURL,
-  payhip: SITE_SETTINGS.books.aiIncomePlaybook.PayhipURL
+  amazon: SITE_SETTINGS.books.aiIncomePlaybook.Amazon URL,
+  payhip: SITE_SETTINGS.books.aiIncomePlaybook.Payhip URL
 };
 
 document.querySelectorAll("[data-purchase]").forEach(button => {
