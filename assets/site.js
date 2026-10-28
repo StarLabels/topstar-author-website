@@ -4,7 +4,7 @@ const SITE_SETTINGS = {
     
 aiIncomePlaybook: {
   amazonUrl: "https://www.amazon.com/dp/B0HNN6CS9V",
-  payhipUrl: "https://payhip.com/b/u1789080458409119008799"
+  payhipUrl: "https://payhip.com/b/s2d0E"
 }
 
   },
@@ -41,8 +41,8 @@ if (menuToggle && nav) menuToggle.addEventListener("click", () => {
 // Activate purchase buttons automatically when a real product URL is supplied.
 
 const purchaseUrls = {
-  amazon: SITE_SETTINGS.books.aiIncomePlaybook.amazonUrl,
-  payhip: SITE_SETTINGS.books.aiIncomePlaybook.payhipUrl
+  amazon: SITE_SETTINGS.books.aiIncomePlaybook.https://www.amazon.com/dp/B0HNN6CS9V,
+  payhip: SITE_SETTINGS.books.aiIncomePlaybook.https://payhip.com/b/s2d0E
 };
 
 document.querySelectorAll("[data-purchase]").forEach(button => {
